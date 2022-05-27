@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Nandi Store</title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navBarContainer">
+            <div class="BrandName">
+                Nandi Store
+            </div>
+            <div class="navBar">
+                <ul class="navBar-List">
+                    <li class="navItem">
+                        <a href="#" class="navLink">Home</a>
+                    </li>
+                    <li class="navItem">
+                        <a href="#" class="navLink">catageries</a>
+                        <ul class="navCat">
+                            <li class="catItem">
+                                <a href="#" class="catLink">friut</a>
+                            </li>
+                            <li class="catItem">
+                                <a href="#" class="catLink">vegetable</a>
+                            </li>
+                            <li class="catItem">
+                                <a href="#" class="catLink">guogcery</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="navItem">
+                        <a href="#mediaLink" class="navLink">media</a>
+                    </li>
+                    <li class="navItem">
+                        <a href="#" class="navLink" id="btn" onclick="online()"> order online</a>
+                    </li>
+                    <li class="navItem">
+                        <a href="#" class="navLink">contact us</a>
+                    </li>
+
+                </ul>
+                <!-- <div class="cart"><img src="../images/cart.png"  class="cartitem" alt=""></div> -->
+            </div>
+            <label for="toggle" class="bar">&#x2630</label>
+            <input type="checkbox" name="toggle" id="toggle">
+
+            <div class="mainBar">
+                <!-- <button class="close" onclick="mainClose(this)">&times;</button> -->
+                <div class="slide">
+                    <ul class="list">
+                        <li class="listLink"><a href="#">Home</a> </li>
+                        <li class="listLink"><a href="#" id="mediaLink">media</a> </li>
+                        <li class="listLink more"><a href="#">more</a>
+                            <div class="DropdownList">
+                                <ul claas="Dropdown">
+
+                                    <li class="opt"><a href="#" class="option">Friut</a></li>
+                                    <li class="opt"><a href="#" class="option">sFriut</a></li>
+                                    <li class="opt"><a href="#" class="option">sFriut</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="listLink><a href=" #" onclick="online()">order Online</a> </li>
+                        <li class="listLink><a href=" #">contact us</a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+
+
+    </header>
+
+    <main>
+
+        <div class="imageSlider">
+
+            <div class="image">
+                <img src="./assets/images/90bc0c906fc30587b4863d0e6089f364.jpg" alt="">
+            </div>
+            <div class="image">
+                <img src="./assets/images/fix.jpg" alt="">
+            </div>
+            <div class="image">
+                <img src="./assets/images/product-jpeg-500x500.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="productList">
+            <h1 class="ourProduct">Our Product</h1>
+            <div class="product">
+
+                <div class="row-1">
+
+                    <div class="productDetails1">
+                        <div class="img">
+                            <img src="./assets/images/chana.jpg" class="productImg">
+                            <div class="productDetail"> <span> product name : chana dal</span>
+                                <span> pmanugfacture year :2020</span>
+                       <span>  valid throught : 6 months</span>
+                            </div>
+                        </div>
+                        <div class="prouductName">
+                            <h3 class="productName"> channa dal</h3>
+                            <p class="price"> Rs :88</p>
+                        </div>
+
+                        <button class="CartBtn" onclick="online()"> order line</button>
+                    </div>
+
+                    <div class="productDetails2">
+                        <div class="img">
+                            <img src="./assets/images/chan dal.jpg" class="productImg">
+                            <div class="productDetail">  <span> product name : chana </span>
+                                <span> pmanugfacture year :2020</span>
+                       <span>  valid throught : 6 months</span>
+                            </div>
+                        </div>
+                        <div class="prouductName">
+                            <h3 class="productName"> chana </h3>
+                            <p class="price"> Rs :70</p>
+                        </div>
+
+                        <button class="CartBtn" onclick="online()"> order line</button>
+                    </div>
+
+                    <div class="productDetails3">
+                        <div class="img">
+                            <img src="./assets/images/badam.jpg" class="productImg">
+                            <div class="productDetail">  <span> product name : badam</span>
+                                <span> pmanugfacture year :2020</span>
+                       <span>  valid throught : 6 months</span>
+                            </div>
+                            
+                        </div>
+                        <div class="prouductName">
+                            <h3 class="productName"> badam </h3>
+                            <p class="price"> Rs :800</p>
+                        </div>
+                        <button class="CartBtn" onclick="online()"> order online</button>
+                    </div>
+
+                    <div class="productDetails4">
+                        <div class="img">
+                            <img src="./assets/images/moong dal.jpeg" class="productImg">
+                            <div class="productDetail">  <span> product name : moong dal</span>
+                                <span> pmanugfacture year :2020</span>
+                       <span>  valid throught : 6 months</span>
+                            </div>
+                        </div>
+                        <div class="prouductName">
+                            <h3 class="productName"> moong dal</h3>
+                            <p class="price"> Rs :100</p>
+                        </div>
+                        <button class="CartBtn" onclick="online()"> order line</button>
+                    </div>
+                </div>
+
+                <div class="row-1">
+
+                    <div class="productDetails1">
+                        <div class="img">
+                            <img src="./assets/images/rice.jpg" class="productImg">
+                            <div class="productDetail">   <span> product name : rice</span>
+                                <span> pmanugfacture year :2020</span>
+                       <span>  valid throught : 6 months</span>
+                    
+                             
+                             
+                            </div>
+                        </div>
+                        <div class="prouductName">
+                            <h3 class="productName"> Ballari Rice</h3>
+                            <p class="price"> Rs :55</p>
+                        </div>
+
+                        <button class="CartBtn" onclick="online()"> order line</button>
+                    </div>
+
+                    <div class="productDetails2">
+                        <div class="img">
+                            <img src="./assets/images/dal.jpg" class="productImg">
+                            <div class="productDetail">  <span> product name : nilakamal dal</span>
+                                <span> pmanugfacture year :2020</span>
+
+                                <span>   valid throught 6 months</span>
+                             
+                            </div>
+                        </div>
+                        <div class="prouductName">
+                            <h3 class="productName"> nilakamala dal</h3>
+                            <p class="price"> Rs :100</p>
+                        </div>
+
+                        <button class="CartBtn" onclick="online()"> order line</button>
+                    </div>
+
+                    <div class="productDetails3">
+                        <div class="img">
+                            <img src="./assets/images/godami.jpg" class="productImg">
+                            <div class="productDetail">
+                                <span> product name : godami</span>
+                                <span> pmanugfacture year :2020</span>
+
+                                <span>   valid throught 6 months</span>
+                             
+                            </div>
+                        </div>
+                        <div class="prouductName">
+                            <h3 class="productName"> godami </h3>
+                            <p class="price"> Rs :950</p>
+                        </div>
+                        <button class="CartBtn" onclick="online()"> order online</button>
+                    </div>
+
+                    <div class="productDetails4">
+                        <div class="img">
+                        
+                            <img src="./assets/images/green moong.jpg" class="productImg">
+                        <div class="productDetail">  <span> product name : green moong</span>
+                            <span> pmanugfacture year :2020</span>
+
+                            <span>   valid throught 6 months</span>
+                         
+                        </div>
+                
+                        
+                        <div class="prouductName">
+                            <h3 class="productName"> green moong dal</h3>
+                            <p class="price"> Rs :120</p>
+                        </div>
+                        <button class="CartBtn" onclick="online()"> order line</button>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+            <div class="formIn" naresh='kkk'>
+                <button class="closeForm" onclick="online()">&#9747</button>
+
+                <div class="form">
+
+                    <div class="slimage">
+                        <img src="./assets/images/90bc0c906fc30587b4863d0e6089f364.jpg" alt="" class="imagesl">
+
+
+                        <table class="userSelectList">
+
+                            <tbody class="Tboday"></tbody>
+                        </table>
+                        <div class="invalid">Enter valid Details</div>
+
+                    </div>
+                    <div class="forminput>
+                 <form action="#">
+                        <div class="inputDetails">
+                            <input type="text" name="name" id="name" autocomplete="off" required>
+                            <label for="name">Enter the Name</label>
+                        </div>
+
+                        <div class="inputDetails">
+                            <input type="email" name="email" id="email" autocomplete="off" required>
+                            <label for="email">Enter the email</label>
+                        </div>
+
+                        <div class="inputDetails">
+                            <input type="number" name="number" id="number" autocomplete="off" required>
+                            <label for="number">Enter the number</label>
+                        </div>
+
+                        <div class="inputDetails">
+                            <input type="text" name="address" id="address" autocomplete="off" required>
+                            <label for="address" class="add">Enter the address</label>
+                        </div>
+
+                        <div class="inputDetails">
+                            <div class="userList">
+                                <select name="userData" class="userData selectedProduct" id="userData">
+                                    <option value="Select" class="userOption">Select </option>
+                                    <option value="Wheet" class="userOption">Wheet </option>
+                                    <option value="Rice" class="userOption">Rice </option>
+                                    <option value="Ragi" class="userOption">Ragi</option>
+
+                                </select>
+
+                                <select name="userQty" id="userQty" class="userQty selectedQty">
+                                    <option value="Select" class="userQtyOption">Select </option>
+                                    <option value="250GM" class="userQtyOption">250GM </option>
+                                    <option value="500GM" class="userQtyOption">500GM </option>
+                                    <option value="1KG" class="userQtyOption">1KG</option>
+                                    <option value="2KG" class="userQtyOption">2KG </option>
+                                    <option value="3KG" class="userQtyOption">3KG </option>
+                                    <option value="5KG" class="userQtyOption">5KG </option>
+                                    <option value="10KG" class="userQtyOption">10KG</option>
+                                </select>
+
+                                <button class="addItem" onclick="calProductPrice(this)">Add</button>
+                            </div>
+                        </div>
+
+
+                        <div class="submit">
+                            <button class="submitBtn" type="submit" onclick="sendMessage(this)">send message</button>
+                        </div>
+
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="Gallary" id="mediaLink">
+                <h1 class="mediaLink" id="mediaLink"> media</h1>
+                <p class="content">karnataka online grocery channel
+                    Nandi store is Smart makes your grocery shopping even simpler.
+                    No more hassles of sweating it out in crowded markets, grocery shops & supermarkets
+                    - now shop from the comfort of your home; office or on the move.
+
+                    We offer you convenience of shopping everything that you need for your home -
+                    be it rice, dals, oil, packaged food, dairy item, frozen, pet food, household cleaning
+                    items & personal care products from a single virtual store.</p>
+
+                <!-- <div class="cards">
+                    <div class="review1">
+                         <img src="./assets/images/favi.jpg" alt="pic" class="reviewImage" > 
+
+                    </div>
+                    <div class="review2">
+                         <img src="./assets/images/favi.jpg" alt="pic" class="reviewImage" > 
+                        
+                    </div>
+                    <div class="review3">
+                        <img src="./assets/images/favi.jpg" alt="pic" class="reviewImage" > 
+                        
+                    </div>
+                    <div class="review4">
+                        <img src="./assets/images/favi.jpg" alt="pic" class="reviewImage" > 
+                        
+                    </div>
+                </div>
+            </div> -->
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+
+        <div class="contactUs">
+            <div class="googleMap">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240.6383315952939!2d76.6617638766952!3d15.201488813238814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb77018fc52a619%3A0x6b75e05fd12e453b!2s6M26%2BJM3%2C%20Toranagallu%2C%20Karnataka%20583123!5e0!3m2!1sen!2sin!4v1640954404113!5m2!1sen!2sin"
+                    width="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="address">
+                <h4 class="addhead">Nandi Store </h4>
+                <p class="addloction">hubli-ballari main road </p>
+                <p class="addloction"> ballari (dist) sandur (Taulak) </p>
+                <p class="addloction">toranagallu rs</p>
+                <p class="addloction"> pincode - 583123</p>
+                <p class="addloction">8105151404, 7989916238</p>
+                <p class="addloction"> chandrashekar144@gmail.com</p>
+
+
+
+
+            </div>
+            <!-- <div class="contact">
+                <div class="contactD">
+               <img src="./assets/images/coneee.png" alt="" class="contactImg">
+            </div> -->
+
+
+        </div>
+
+        </div>
+        <div class="copyright">
+            <p class="copyrightLine"> all &#169 copyright revese by nandi store</p>
+        </div>
+    </footer>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

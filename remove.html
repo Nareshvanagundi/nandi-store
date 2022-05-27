@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>removeElement</title>
+            
+                <style>
+                  *{
+                      margin: 0px;
+                      padding: 0px;
+                      box-sizing: border-box;
+            
+                  }
+            
+                .continer{
+                    width: 100%;
+                    height: 100vh;
+                    display: grid;
+                    grid-template-columns: 2fr 2fr 2fr;
+                    background:black;
+                }
+                .box1{
+                    background: red;
+                }
+                .box2{
+                    background: yellow;
+                }
+                 .box3{
+                    background: green;
+                }
+                </style>
+            </head>
+            <body>
+                
+                <div class="continer">
+                    <div class="box box1" >
+                       <div>
+                           <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique totam sequi tenetur adipisci deserunt ducimus fugiat minima expedita ullam ipsum, laboriosam magnam quam, sit nostrum deleniti maxime, labore et doloribus.</span>
+                       </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et assumenda magni voluptates sint animi <mark>hello world</mark> odio quis eaque? Voluptatum, fugiat labore? Enim exercitationem delectus molestias consequatur sit harum illum non! Illo!</p>
+                    </div>
+                    <div class="box box2">
+                        <button>Submit</button>
+                    </div>
+                    <div class="box box3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, obcaecati eveniet ea officiis nam corporis quis. Maiores illum cupiditate consequatur esse, similique provident magni saepe qui aliquam quam veniam distinctio?</p>
+
+                    </div>
+                </div>
+       
+       <script>
+        // let mainCOn = document.querySelector(".box1")
+           let box = document.querySelectorAll(".box")
+        
+            // console.log(box)
+            // console.log(mainCOn)
+         
+            for(i=0; i<box.length;i++){
+            box[i].addEventListener("click",function removechild(e){
+                // e.currentTarget.style.background="blue"
+            console.log(e.currentTarget.remove())
+
+            },true)
+
+            }
+          
+            var array = ['html', 'css', 'perl', 'c', 'java', 'javascript']  
+var index = array.indexOf('javascript');
+
+if (index > -1) {
+    array.splice(index, 1);
+}
+console.log(array)
+            
+//             l.addEventListener("click",function removechild(e){
+// console.log(e.currentTarget.remove())
+//             },false)
+
+         //   function removechild(e){
+    //             let leng = e.target.childNodes;
+    //             let remove=""
+    //             // for(i=0;i<leng.length; i++){
+    //             //     remove = leng[i]
+    //             // }
+    //             console.log(remove)
+    //  console.log(e.currentTarget)
+
+    // }
+               
+            
+
+        //         console.log(e.target.parentElement)
+        //   console.log(e.target.parentElement.remove())
+     
+            
+
+            
+
+           
+       </script> 
+    
+</body>
+</html>
